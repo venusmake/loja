@@ -1,0 +1,106 @@
+.cabecario{
+    width: 100%;
+    height: 250px;
+    background-color: #F885AE;
+
+}
+.btn{
+    padding-left: 2%;
+    float: left;
+}
+.cabecario a{
+    text-decoration: none;
+    background-color: #F8F9F0;
+    padding: 7px 10px;
+    color: #F885AE;
+    border-radius: 5%;
+    font-size: 18px;
+}
+.cabecario a:hover{
+    background-color: #F885AE;
+    color: #F8F9F0;
+    border: 2px solid #F8F9F0;
+    font-weight: bold;
+    transition: 700ms;
+
+}
+.cabecario p{
+    padding-top:30px;
+}
+.img{
+    padding-left: 43%;
+    padding-top: 2%;
+}
+.whatts img{
+    width: 5%;
+    background-color: #242323;
+    padding: 10px 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.rodape{
+    background-color: #141414;
+    color: white;
+    text-align: center;
+}
+.rod{
+   padding-top: 5%;
+   padding-bottom: 2%;
+}
+.rod h3{
+   padding-bottom: 5%;
+   font-size: 25px;
+   font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: .1em;
+}
+.rod p{
+   padding-bottom: 2%;
+   font-size: 22px;
+}
+.rod a{
+   text-decoration: none;
+   color: #F8F9F0;
+}
+
+@media (max-width: 768px) {
+    .rodape{
+        width: 100%;
+    }
+    .rodape .grid-5, 
+	.rodape .grid-6{
+		width: 100%;
+		float:none;
+	}
+    .img{
+        padding-left: 0%;
+        text-align: center;
+    }
+    .whatts img{
+        width: 15%;
+    }
+    .rod{
+        padding-top: 5%;
+        padding-bottom: 5%;
+     }
+     .rod h3{
+        padding-top: 10%;
+        padding-bottom: 2%;
+        font-size: 19px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+     }
+     .rod p{
+        padding-bottom: 2%;
+        font-size: 16px;
+     }
+     .rod a{
+        text-decoration: none;
+        color: #F8F9F0;
+     }
+    
+     
+}
